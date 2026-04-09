@@ -1,0 +1,9 @@
+paths:
+  input: data/planilha_original/transparencia_excel.xls
+  output: data/planilha_tratada
+
+filtro:
+  entidade: SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONOMICO
+
+excel:
+  nome_saida: secretaria_desenvolvimento_economico.xlsx
