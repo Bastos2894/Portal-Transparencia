@@ -3,7 +3,7 @@ from openpyxl.styles import Font, Border, Side, PatternFill
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
-
+# faz a formatação da planilha de saída, deixando ela mais apresentável e fácil de ler
 def style_planilhas(arquivo_saida):
 
     wb = load_workbook(arquivo_saida)

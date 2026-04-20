@@ -1,6 +1,6 @@
 import polars as pl
 import unicodedata
-
+# Padronmização de dados para facilitar análises e evitar problemas de encoding, acentos, etc.
 
 def _remove_acentos(texto: str) -> str:
     if texto is None:
