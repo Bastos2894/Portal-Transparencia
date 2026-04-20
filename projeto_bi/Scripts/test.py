@@ -5,3 +5,6 @@ engine = get_engine()
 
 with engine.connect() as conn:
     print("✅ Conectado com sucesso!")
+    print("🔍 Verificando a versão do banco de dados...")
+    version = conn.execute("SELECT version()").fetchone()
+    print(f"📊 Versão do banco de dados: {version[0]}")
